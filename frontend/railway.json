@@ -4,6 +4,6 @@
     "buildCommand": "npm run build"
   },
   "deploy": {
-    "startCommand": "npm install -g serve && serve -s dist -l 3000"
+    "startCommand": "npm run preview"
   }
 }
